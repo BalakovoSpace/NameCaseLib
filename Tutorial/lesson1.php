@@ -4,7 +4,7 @@ header('Content-type: text/html; charset=utf-8');
 /**
  * Подключаем необходимый язык
  */
-require '../Library/NCL.NameCase.ru.php';
+require '../Library/NCLNameCaseRu.php';
 /**
  * Создаем обьект класса. 
  * Теперь библиотека готова к работе 
@@ -18,7 +18,7 @@ print_r($nc->q("Андрей Николаевич"));
 /**
  * Подключаем другой язык
  */
-require '../Library/NCL.NameCase.ua.php';
+require '../Library/NCLNameCaseUa.php';
 /**
  * Создаем объект класса. 
  * Теперь библиотека готова к работе 
